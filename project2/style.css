@@ -170,7 +170,7 @@ nav i:hover {
 }
 
 #advertisement_seticon {
-  margin-top: 50px;
+  margin: 80px 0;
   display: flex;
   justify-content: center;
 }
@@ -179,4 +179,102 @@ nav i:hover {
   font-size: 22px;
   font-weight: 600;
   padding-bottom: 10px;
+}
+
+#advertisement_seticon img {
+  border-radius: 10px;
+}
+
+#recipes_secion {
+  margin: 100px 0;
+  padding-bottom: 100px;
+}
+
+#recipes_secion h2 {
+  margin-bottom: 20px;
+}
+
+#card_main {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+.card_hover {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  align-items: center;
+  position: absolute;
+  left: 25px;
+  top: 190px;
+}
+.card_hover p {
+  color: white;
+  font-weight: 500;
+}
+
+.card_hover button {
+  background: #0abf53;
+  color: white;
+  border: none;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 5px 18px;
+  border-radius: 20px;
+}
+
+.card_hover #how_to {
+  background: #ff8763;
+}
+.card_hover #drink {
+  background: #7f87de;
+}
+
+.card1 {
+  width: 31.5%;
+  position: relative;
+}
+.card1 h1 {
+  font-size: 22px;
+  padding: 10px 0px;
+  transition: all 0.3s ease-in-out;
+}
+.card1 > p {
+  color: #a1a1a1;
+  font-size: 18px;
+  padding-bottom: 5px;
+}
+
+.card1 h1:hover {
+  color: #cd816b;
+  cursor: pointer;
+  font-weight: 700;
+}
+.card1 > img {
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+  object-position: center;
+}
+.card1_buttom_top {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+#card1_buttom {
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+  justify-content: space-between;
+  width: 100%;
+}
+#card1_buttom p {
+  transition: all 0.3s ease-in-out;
+}
+#card1_buttom p:hover {
+  color: #f1886a;
+  cursor: pointer;
 }
