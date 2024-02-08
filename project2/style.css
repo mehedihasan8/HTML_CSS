@@ -75,3 +75,93 @@ nav i:hover {
   font-size: 25px;
   color: #ff8763;
 }
+
+#hero_container {
+  padding-top: 50px;
+  display: grid;
+  gap: 30px;
+  color: white;
+  grid-template-columns: 68% 30%;
+  height: 100px;
+  z-index: 999;
+}
+
+.left_dev {
+  color: #eeeded;
+  background-image: url(/img/1.jpg);
+  background-position: center;
+  background-size: contain;
+  position: relative;
+  border-radius: 15px;
+}
+.left_dev button {
+  background: #ebc272;
+  margin-bottom: 10px;
+  color: white;
+  border: none;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 5px 12px;
+  border-radius: 20px;
+}
+
+.left_dev h1 {
+  font-size: 35px;
+  font-weight: 800;
+}
+
+.hover_div > p {
+  padding-top: 10px;
+  font-size: 18px;
+  font-weight: 700;
+  width: 90%;
+}
+
+.hover_div {
+  position: absolute;
+  left: 40px;
+  transition: all 0.3s ease-out;
+  bottom: 20px;
+}
+
+#hover_buttom {
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.right_dev1 {
+  background-image: url(/img/2.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  height: 200px;
+  color: rgb(0, 0, 0);
+  width: 100%;
+  border-radius: 15px;
+  padding: 80px 20px 20px 40px;
+}
+
+.right_dev2 {
+  background: #52bb02;
+  margin-top: 30px;
+  background-image: url(/img/3.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+  color: rgb(0, 0, 0);
+  width: 100%;
+  border-radius: 15px;
+  padding: 70px 5px 5px 30px;
+}
+
+.right_dev1 h1 {
+  font-size: 24px;
+  font-weight: 800;
+}
+.right_dev2 h1 {
+  font-size: 24px;
+  font-weight: 800;
+}
