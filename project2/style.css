@@ -302,13 +302,12 @@ nav i:hover {
   width: 300px;
   border-radius: 10px;
   overflow: hidden;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease;
 }
 
 #categories1:hover {
   color: #f1886a;
-  /* margin-bottom: 30px; */
-  transform: rotate(-5deg);
+  transform: scale(1.07);
   cursor: pointer;
 }
 
