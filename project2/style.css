@@ -259,7 +259,13 @@ nav i:hover {
   border-radius: 10px;
   object-fit: cover;
   object-position: center;
+  transition: all 0.3s ease;
 }
+
+.card1 > img:hover {
+  transform: scale(1.03);
+}
+
 .card1_buttom_top {
   display: flex;
   gap: 10px;
