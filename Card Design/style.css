@@ -62,3 +62,21 @@ body {
   font-size: 15px;
   font-weight: 400;
 }
+.profile_card .media_buttons {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+.media_buttons a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 50%;
+  height: 34px;
+  width: 34px;
+  background-color: #e92716;
+  margin: 0 8px;
+  text-decoration: none;
+}
