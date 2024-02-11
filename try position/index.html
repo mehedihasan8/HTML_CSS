@@ -5,7 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Position</title>
     <style>
-      img {
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      /* img {
         border: 2px solid black;
         margin: 10px;
         border-radius: 8px;
@@ -22,11 +26,32 @@
         position: absolute;
         top: 280px;
         left: 336px;
+      } */
+      .container {
+        background-color: #00ff08;
+        border-radius: 8px;
+        position: absolute;
+        top: 40%;
+        left: 40%;
+        transform: translate(-50%, -50%);
+        width: 40vw;
+        height: 40vh;
+      }
+      .box {
+        background-color: red;
+        position: absolute;
+        top: 11%;
+        left: 16%;
+        width: 10vw;
+        height: 20vh;
       }
     </style>
   </head>
   <body>
-    <div class="container">
+    <div class="container"></div>
+    <div class="box"></div>
+    <!-- <div class="container">
+    
       <img
         src="https://images.unsplash.com/photo-1606041008023-472dfb5e530f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Zmxvd2VyfGVufDB8fDB8fHww"
         alt=""
@@ -48,6 +73,6 @@
         height="400px"
         class="image3"
       />
-    </div>
+    </div> -->
   </body>
 </html>
