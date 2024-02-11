@@ -103,3 +103,27 @@ body {
 .buttons .button:hover {
   background-color: #cb1e0e;
 }
+
+.profile_card .analytics {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.analytics .data {
+  display: flex;
+  align-items: center;
+  color: #333;
+  padding: 0 20px;
+  border-right: 2px solid #e7e7e7;
+}
+
+.data i {
+  font-size: 18px;
+  margin-right: 6px;
+}
+
+.data:last-child {
+  border-right: none;
+}
