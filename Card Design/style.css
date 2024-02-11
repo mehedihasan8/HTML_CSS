@@ -80,3 +80,26 @@ body {
   margin: 0 8px;
   text-decoration: none;
 }
+
+.profile_card .buttons {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.buttons .button {
+  border: none;
+  font-size: 14px;
+  font-weight: 400;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 24px;
+  padding: 8px 24px;
+  background-color: #e92716;
+  transition: all 0.3s ease;
+}
+
+.buttons .button:hover {
+  background-color: #cb1e0e;
+}
