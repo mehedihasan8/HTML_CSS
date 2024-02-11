@@ -6,6 +6,7 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+
 html,
 body {
   height: 100%;
@@ -17,6 +18,17 @@ body {
   align-items: center;
   background-color: #f4f4f4;
 }
+.profile_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 370px;
+  width: 100%;
+  border-radius: 24px;
+  padding: 25px;
+  background-color: #fff;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
 .image {
   position: relative;
   height: 150px;
@@ -24,7 +36,9 @@ body {
   border-radius: 50%;
   background-color: #e92716;
   padding: 3px;
+  margin-bottom: 10px;
 }
+
 .image .profile_img {
   height: 100%;
   width: 100%;
@@ -32,4 +46,19 @@ body {
   object-position: top;
   border-radius: 50%;
   border: 3px solid #fff;
+}
+
+.profile_card .text_data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text_data .name {
+  font-size: 22px;
+  font-weight: 500;
+}
+.text_data .job {
+  font-size: 15px;
+  font-weight: 400;
 }
