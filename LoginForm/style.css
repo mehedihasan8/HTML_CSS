@@ -18,16 +18,18 @@ body {
 }
 
 .wrapper {
-  width: 380px;
+  max-width: 440px;
+  width: 100%;
   background-color: #fff;
   border-radius: 5px;
+  margin: 0px 10px;
 }
 
 .wrapper .title {
   background-color: #16a085;
   line-height: 80px;
-  padding-left: 25px;
   font-size: 25px;
+  text-align: center;
   font-weight: 600;
   color: #fff;
   border-radius: 5px 5px 0 0;
@@ -50,6 +52,12 @@ body {
   font-size: 16px;
   border: 1px solid lightgrey;
   border-radius: 5px;
+  transition: all 0.3s ease-out;
+}
+
+form .row input:focus {
+  border-color: #16a085;
+  box-shadow: inset 0px 0px 2px 2px rgba(26, 188, 156, 0.25);
 }
 
 .wrapper form .row i {
@@ -69,15 +77,34 @@ body {
   padding-left: 0px;
   border-radius: 5px;
   background-color: #16a085;
-  font-size: 18px;
+  font-size: 20px;
   color: #fff;
   cursor: pointer;
 }
-.wrapper form .button .pass {
-  margin-bottom: 12px;
-  list-style: none;
+form .button input:hover {
+  background-color: #0a826a;
 }
-.wrapper form .button .pass a {
+.wrapper form .pass {
+  margin-bottom: 12px;
+  font-size: 17px;
+}
+.wrapper form .pass a {
   text-decoration: none;
-  color: #096a57;
+  color: #01a383;
+}
+.wrapper form .pass a:hover {
+  text-decoration: underline;
+}
+
+.wrapper form .signpu-link {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 17px;
+}
+.wrapper form .signpu-link a {
+  text-decoration: none;
+  color: #01a383;
+}
+.wrapper form .signpu-link a:hover {
+  text-decoration: underline;
 }
