@@ -633,6 +633,10 @@ video {
   margin-bottom: 1.5rem;
 }
 
+.mr-16 {
+  margin-right: 4rem;
+}
+
 .flex {
   display: flex;
 }
@@ -655,6 +659,10 @@ video {
 
 .h-screen {
   height: 100vh;
+}
+
+.h-\[300px\] {
+  height: 300px;
 }
 
 .w-8 {
@@ -686,12 +694,24 @@ video {
   width: max-content;
 }
 
+.w-1\/4 {
+  width: 25%;
+}
+
 .max-w-\[814px\] {
   max-width: 814px;
 }
 
 .cursor-pointer {
   cursor: pointer;
+}
+
+.scroll-pr-0 {
+  scroll-padding-right: 0px;
+}
+
+.scroll-pr-0\.5 {
+  scroll-padding-right: 0.125rem;
 }
 
 .flex-col {
@@ -731,6 +751,23 @@ video {
 
 .gap-y-4 {
   row-gap: 1rem;
+}
+
+.gap-x-12 {
+  -moz-column-gap: 3rem;
+       column-gap: 3rem;
+}
+
+.gap-y-16 {
+  row-gap: 4rem;
+}
+
+.gap-y-12 {
+  row-gap: 3rem;
+}
+
+.gap-y-6 {
+  row-gap: 1.5rem;
 }
 
 .self-end {
@@ -809,6 +846,21 @@ video {
   padding-bottom: 2rem;
 }
 
+.py-16 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.py-14 {
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
+}
+
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
 .pr-4 {
   padding-right: 1rem;
 }
@@ -817,8 +869,28 @@ video {
   padding-top: 0.5rem;
 }
 
+.pr-5 {
+  padding-right: 1.25rem;
+}
+
+.pr-16 {
+  padding-right: 4rem;
+}
+
+.pr-20 {
+  padding-right: 5rem;
+}
+
+.pb-1 {
+  padding-bottom: 0.25rem;
+}
+
 .text-center {
   text-align: center;
+}
+
+.font-primary {
+  font-family: Poppins;
 }
 
 .text-2xl {
@@ -831,8 +903,21 @@ video {
   line-height: 1.5rem;
 }
 
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
 .font-medium {
   font-weight: 500;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.font-bold {
+  font-weight: 700;
 }
 
 .uppercase {
@@ -861,6 +946,11 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-accent-tertiary {
+  --tw-text-opacity: 1;
+  color: rgb(144 198 205 / var(--tw-text-opacity));
 }
 
 .shadow-2xl {
@@ -1179,9 +1269,38 @@ h6 {
     row-gap: 0px;
   }
 
+  .lg\:border-r {
+    border-right-width: 1px;
+  }
+
   .lg\:px-14 {
     padding-left: 3.5rem;
     padding-right: 3.5rem;
+  }
+
+  .lg\:py-16 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  .lg\:py-20 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  .lg\:py-24 {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+
+  .lg\:py-36 {
+    padding-top: 9rem;
+    padding-bottom: 9rem;
+  }
+
+  .lg\:py-32 {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
   }
 
   .lg\:pb-14 {
@@ -1190,6 +1309,19 @@ h6 {
 
   .lg\:pt-6 {
     padding-top: 1.5rem;
+  }
+
+  .lg\:pr-20 {
+    padding-right: 5rem;
+  }
+
+  .lg\:pr-4 {
+    padding-right: 1rem;
+  }
+
+  .lg\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
   }
 }
 
