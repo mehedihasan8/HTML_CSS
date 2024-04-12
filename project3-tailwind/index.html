@@ -368,16 +368,70 @@
 
     <!-- start appoinment section  -->
 
-    <section class="appoinment">
+    <section class="appoinment mb-32">
       <div class="container mx-auto">
         <!-- title  -->
         <h1
-          class="apponment__tile h2 mb-5 xl:mb-[50px] text-center xl:text-left"
+          class="apponment__tile h2 mb-8 xl:mb-[50px] text-center xl:text-left"
         >
           Book Apponment or Call:
           <span class="text-accent-tertiary">(+487) 386 6548</span>
         </h1>
         <!-- form section  -->
+        <form class="appoinmnet_form flex flex-col gap-y-5">
+          <!-- select wrapper  -->
+          <div class="flex flex-col xl:flex-row gap-5">
+            <!-- select 1  -->
+            <div
+              class="border flex-1 select relative flex items-center rounded-md"
+            >
+              <!-- icon  -->
+              <div class="absolute right-4">
+                <i class="ri-arrow-down-s-line text-2xl text-primary"></i>
+              </div>
+              <!-- select  -->
+              <select
+                class="w-full appearance-none h-full outline-none bg-transparent px-4 py-2 text-primary"
+              >
+                <option value="1">Select Department</option>
+                <option value="2">Department 1</option>
+                <option value="3">Department 2</option>
+                <option value="4">Department 3</option>
+                <option value="5">Department 4</option>
+              </select>
+            </div>
+            <div
+              class="border flex-1 select relative flex items-center rounded-md"
+            >
+              <!-- icon  -->
+              <div class="absolute right-4">
+                <i class="ri-arrow-down-s-line text-2xl text-primary"></i>
+              </div>
+              <!-- select  -->
+              <select
+                class="w-full appearance-none h-full outline-none bg-transparent px-4 py-2 text-primary"
+              >
+                <option value="1">Select Doctor</option>
+                <option value="2">Doctor 1</option>
+                <option value="3">Doctor 2</option>
+                <option value="4">Doctor 3</option>
+                <option value="5">Doctor 4</option>
+              </select>
+            </div>
+          </div>
+          <div class="flex flex-col xl:flex-row gap-5">
+            <input
+              class="input flex-1 outline-none border py-2"
+              type="text"
+              placeholder="Full Name"
+            />
+            <input
+              class="input flex-1 outline-none border py-2"
+              type="number"
+              placeholder="Phone Number"
+            />
+          </div>
+        </form>
       </div>
     </section>
 
